@@ -1,11 +1,10 @@
 Rick&Morty Wiki
-Ejercicio con React módulo 3
-La web muestra en la pantalla la información recogida de una api sobre la serie Rick & Morty. En ella aparece un listado con cada uno de los personajes con la siguiente información:
+La aplicación muestra en pantalla la información recogida de una API sobre la serie Rick & Morty. En ella aparece un listado con cada uno de los personajes con la siguiente información: 
 
-Foto
-Nombre
-Especie
-Cuenta con un input donde puedes filtras buscando a cada uno de los personajes.
+Foto,
+Nombre,
+Especie,
+Cuenta con un input donde puedes filtras buscando a cada uno de los personajes y otro por el cual eliges su especie.
 
 Si se pincha en cada personaje te lleva a una página de detalle donde puedes encontrar más información.
 
@@ -15,4 +14,4 @@ Si clonas este proyecto puedes acceder a él poniendo en la terminal: npm start
 
 Podrás previsualizarlo en el puerto http://localhost:3000
 
-Proyecto realizado por Cristina Tato, alumna de la promoción Grace.
+Proyecto realizado por Cristina Tato.
