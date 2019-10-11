@@ -1,0 +1,15 @@
+.title {
+    height: 1px;
+    overflow: hidden;
+    padding-top: 120px;
+    background-size: cover;
+    background-image:url('https://help.redbubble.com/hc/article_attachments/360002309526/Rick_and_Morty_-_logo__English_.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media all and (min-width:768px) {
+    .title {
+        padding-top: 200px;
+        background-size: contain;
+    }
+}

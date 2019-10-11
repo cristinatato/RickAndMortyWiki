@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+}
+.container__detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+}
+.container__card {
+    width: 700px;
+    height: 350px;
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    margin-top: 50px;
+}
+.container__details {
+    grid-column: 2/3;
+}
+.name__detail {
+    font-family: 'Roboto Mono', monospace;
+    color: #091332;
+    margin: 10px 0 10px 0;
+    align-content: center;
+}
+.img__container-detail {
+    grid-column: 1/2;
+    margin: 25px;
+}
+
+.specie__detail {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #091332;
+    margin-bottom: 5px;
+}
+.status__detail {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #091332;
+    margin-bottom: 5px;
+
+}
+.origin__detail {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #091332;
+    margin-bottom: 5px;
+
+}
+.episodes__detail {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #091332;
+
+}
+.link {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    color: skyblue;
+    grid-column: 2/3;
+
+}
+.fa-reddit-alien {
+    font-size: 20px;
+}
+.fa-male {
+    font-size: 20px;
+}
+.fa-heartbeat {
+    font-size: 20px;
+}
+.fa-skull-crossbones:before {
+    font-size: 20px;
+}
+.fa-arrow-left:before {
+    margin-right: 5px;
+}
+.info {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    margin: 50px 0 20px 0;
+}
